@@ -4,7 +4,7 @@ Check out our Profit With JavaScript Course 👇
 
 Click Here
 
-Made with ❤️ by Vikram
+## Made with ❤️ by Vikram
 
 Available Scripts
 In the project directory, you can run:
