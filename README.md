@@ -1,5 +1,5 @@
 # Covid-19-Tracker-react-js
-
+ This is a react js web application. It's kind of a dashboard . It gives everyday’s covid reports which include the number of cases , number of people recovered and number of deaths . This information is given for all countries and worldwide. Three graphs of worldwide data are made using chart js-2 library . I have deployed and hosted in firebase
 
 ### Available Scripts
 In the project directory, you can run:
