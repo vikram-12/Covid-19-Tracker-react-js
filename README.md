@@ -1,60 +1,31 @@
 # Covid-19-Tracker-react-js
  This is a react js web application. It's kind of a dashboard . It gives everyday’s covid reports which include the number of cases , number of people recovered and number of deaths . This information is given for all countries and worldwide. Three graphs of worldwide data are made using chart js-2 library . I have deployed and hosted in firebase
 
-### Available Scripts
-In the project directory, you can run:
+# What technology are used to build this?
+In this project I have used react js ,html , css & chart-js-2 to build line graphs. 
+I have used material ui icons in the project for the icons . 
+We will be getting the data related to covid from disease.sh .
+# Installation
+First you need to have node js installed in your device. You can visit https://nodejs.org/en/ to download node js.
+Then you need to install the create-react-app using the command:  **npx create-react-app covid-19-tracker**.
+Install **@material-ui/core ,react-chartjs-2,numeral** using npm install @material-ui/core ,react-chartjs-2,numeral.
 
-#### npm start
-Runs the app in the development mode.
-Open http://localhost:3000 to view it in the browser.
+# How I build it ?
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+Here in App.js, I am fetching the data related to covid from **disease.sh**(link below) at first then storing it and then passing it through various components.
+After that I developed each component like the graph components and the infobox component to display the countries and respective cases. 
+I used FormControl and MenuItem (Material ui components) to design and develop the boxes which shows live cases at the top . You can select a particular country or check worldwide data there. 
+The graph shows details about worldwide cases , recoved cases and death cases . 
 
-#### npm test
-Launches the test runner in the interactive watch mode.
-See the section about running tests for more information.
+## To learn more or for help follow the links below : 
+ **Material ui** : https://material-ui.com/
+ **React js** :  https://reactjs.org/docs
+ **Disease.sh** : https://disease.sh/
+ **react-chart-js-2** : https://www.npmjs.com/package/react-chartjs-2
+ **numeral** : https://www.npmjs.com/package/numeral
+![Screenshot (112)](https://user-images.githubusercontent.com/53655438/121766417-4424c180-cb6f-11eb-81c2-46fc32405b96.png)
+![Screenshot (113)](https://user-images.githubusercontent.com/53655438/121766421-48e97580-cb6f-11eb-93a3-e53a403db6e0.png)
 
-#### npm run build
-Builds the app for production to the build folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
-
-See the section about deployment for more information.
-
-#### npm run eject
-Note: this is a one-way operation. Once you eject, you can’t go back!
-
-If you aren’t satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-Learn More
-You can learn more in the Create React App documentation.
-
-To learn React, check out the React documentation.
-
-#### Code Splitting
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-#### Analyzing the Bundle Size
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-#### Making a Progressive Web App
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-#### Advanced Configuration
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-#### Deployment
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-#### npm run build fails to minify
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 
 ## Made with ❤️ by Vikram
